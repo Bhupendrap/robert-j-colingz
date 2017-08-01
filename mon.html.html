@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+ <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+
+<style type="text/css">
+    footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    overflow:auto;
+}
+    hr {
+    display: block;
+    border-top: 2px solid #BDB76B;
+    margin: 1em 40% 10px 40%;
+    border-spacing: 100px;
+}
+
+.i_am_col{
+  color: gold;
+  font-size: 18px;
+}
+
+  
+.img1  {
+     margin-top: 50px;
+    max-width: 100%;
+     height: 400px; 
+     float: left;
+    
+}
+.img2{
+  margin-top: 50px;
+  height: 400px;
+  max-width:  100%;
+  float: left;
+  
+
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.hello_worldr{
+  display: block;
+    border-top: 2px solid #BDB76B;
+    margin: 1em 0;
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+.image{
+   position: relative;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+.captiop-on-img{
+
+   z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 300px;
+}
+
+
+.captiop-on-tree{
+   z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  right: : 150px;
+  left: 200px;
+  top: 300px;
+}
+
+
+.color_rjc{
+  background-color: #FFD700;
+  height: 300px;
+}
+.rjc_2_img{
+font-size: 10px;
+}
+.what_do{
+  margin-left: 18px;
+  margin-top: 50px;
+  text-decoration-style:solid;
+  border-bottom:  solid 2px #24200C;
+  margin-right: 70%;
+}
+ h2 p{
+ margin-left: 200px;
+}
+.glyphicon-education{
+  margin-right: 10px;
+font-size: 17px;
+}
+
+.transp_mod{
+    background-color: #1a1228;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.black_trans{
+  max-height: 10%;
+ max-width: 100%;
+}
+.dow_img{
+  text-decoration: none;
+  border-bottom:  solid 2px #FFD700;
+  border-bottom-right: 2em;
+  color: #FFD700;
+  font-size: 18px;
+  padding: 5px;
+
+}
+.dow_gallary{
+  text-decoration: none;
+  border-bottom:  solid 2px #FFD700;
+  border-bottom-right: 2em;
+  color: #FFD700;
+  font-size: 18px;
+  padding: 5px;
+  float: right;
+}
+.cities,.tree{
+  font-size: 15px;
+}
+.icon-left{
+  width: 50px;
+
+}
+.America{
+  margin-left: 25px;
+}
+.timeline{
+color:    #FFD700;
+border-bottom:  solid 2px   #F8F8FF;
+border-bottom-right: 2em;
+margin-right: 76%;
+}
+.glyphicon-modal-window{
+  color: #FFFAF0;
+  margin: 10px;
+  font-size: 30px;
+}
+.about_com{
+  color: #FFFAF0;
+  margin-top: 50px;
+}
+.mira,.mira_dow{
+  color: #FFD700;
+}
+.icon-size{
+   margin-top: 100px;
+   font-size:30px;
+   margin-left: 50px;
+ 
+}
+.allsocial {
+  font-size:20px;
+  margin: 5px 5px 5px;
+}
+.allsocial:hover{
+ color: yellow;
+
+}
+.student{
+   background-color: #FFD700;
+  height: 300px;
+}
+.news_rd{
+  font-size: 17px;
+  font-style: bold;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.myjour{
+  font-size: 20px;
+  margin-right: 65%;
+  border-bottom:  solid 2px  #FFD700;
+  border-bottom-right: 2em;
+ margin-bottom: 30px;
+
+}
+.desc {
+    padding: 15px;
+    text-align: left;
+    border-bottom-color: solid;
+}
+.allpost{
+  float: right;
+  margin: 30px;
+  font-size: 15px;
+}
+
+
+#social-face-slide1:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-twit-slide1:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-linked-slide1:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-face-slide2:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-twit-slide2:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-linked-slide2:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-face-slide3:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-twit-slide3:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+#social-linked-slide3:hover
+{
+  background-color: white;
+  border:3px solid #C7BABA;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height:10px;
+  }
+  .carousel-indicators {
+    bottom: -15px;
+}
+    .carousel-control.right {
+    margin-top: 180px;
+    margin-right: 20px;
+  }
+  .carousel-control.left {
+    margin-top: 180px;
+  }
+ 
+#dv11_1 {
+  opacity: 1;
+  display: block;
+  
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.wonder_midle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover #dv11_1 {
+  opacity: 0.3;
+}
+
+.container:hover .wonder_midle {
+  opacity: 1;
+}
+.wonder_city{
+  width: 70%;margin-bottom: 40px;
+}
+.wonder_text{
+  
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.facebook_link{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.travel_sec{
+   margin-top: 10px;
+}
+.student_all{
+
+margin-top: 0.2px;
+}
+.colinger-text{
+  text-align: left;
+}
+.myjournay-sec{
+  margin-top: 30px;
+}
+.democrasy{
+
+ min-width:100%;
+ max-width: 100%;
+}
+.democrasy-contant{
+margin-top: 30px;
+}
+.travel-memory{
+   border-bottom:  solid 2px  #F0FFFF;
+  border-bottom-right: 2em;
+  margin-right: 80%;
+  margin-bottom: 20px;
+}
+.social-foot{
+  padding: 0px;
+}
+ </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+  <div class="container responsive">    
+    <header class="home-full">
+      <center> <h1>Hello world!!</h1><hr class="hello_world"></center>
+    </header>
+
+    <section class="rjc_sec_1">
+      <div class="row responsive">
+         <div class="col-md-6 col-sm-6 col-xs-12 image">
+            <img src="images/3.jpg" class="img1" class="img-responsive " > 
+            <div class="captiop-on-img">
+             The World
+             <p class="cities">in this world so many cities..</p>
+            <p> <a href="#" class="dow_img">Download Image</a></p>
+            </div>
+         </div>
+         <div class="col-md-6 col-sm-6 col-xs-12 image">
+             <img src='images/5.jpg' class="img2" class="img-responsive "> 
+             <div class="captiop-on-tree">
+             The Trees
+             <p class="tree">in this world so many tree..</p>
+            <p> <a href="#" class="dow_gallary">Images Gallary</a></p>
+            </div>
+         </div>
+      </div>
+    </section>
+
+<section class="rjc_sec_2">
+  <div class="row rjc_2">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 color_rjc">
+       <div class="America"><h2>America</h2>
+         <img class="img-responsive" src="images/2.jpg"> 
+            <p class="rjc_2_img">Lorem ipsum donec id elit non mi porta.</p>
+        </div>
+     </div>
+    <div class=" row col-lg-6 col-md-6 col-sm-6 col-xs-12 color_rjc">
+      <h2 class="what_do">What I Do</h2>
+      <div class="icon-left col-lg-3 col-md-4">
+       <p class="gg_eduction"><span class="glyphicon glyphicon-education"></span> </p>
+       <p class="folder_open"> <span class="glyphicon glyphicon-folder-open"></span></p>
+       <p class="calender"><span class="glyphicon glyphicon-calendar"></span></p>
+       <p class="envelope"><span class="glyphicon glyphicon-envelope"></span></p>
+      </div>
+      <div class="col-lg-9 col-md-8"> 
+        <p> Eduction is must in India.</p>
+        <p> Open file and folder as you want.</p>
+        <p> calender decided our holiday.</p>
+        <p> Messages is social media.</p>
+      </div>
+   </div>
+ </div>
+</section>
+
+<section class="rjc_sec_3">
+  <div class="row transp_mod">
+   
+    <div class="col-md-6 col-sm-6 col-xs-12" >
+      <h2 class="timeline">Timeline</h2>
+      <img src="images/calender.jpg" width="80%" height="200px">
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 transp_mod">
+       <div class="about_com">
+          <p><span class="glyphicon glyphicon-modal-window "></span></p> 
+            <p>Mirafra Tech</p>
+            <p class="mira">Mirafra Technologies(till 2017)</p>
+            <p>Company manager:</p>
+            The manager sets goals for the group, and decides
+            <p class="mira_dow"><a href="#" class="mira_dow"> Download Resume</a></p>
+           </div>
+      </div>
+    </div>
+</section>
+  
+<section class="rjc_sec_4">
+  <div class="row" >
+   <div class="col-sm-12 Face_link"> 
+     <div id="myFacebook" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myFacebook" data-slide-to="0" class="active"></li>
+        <li data-target="#myFacebook" data-slide-to="1"></li>
+        <li data-target="#myFacebook" data-slide-to="2"></li>
+      </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <div class="row">
+        <div class="col-md-4 col-xs-4" id="social-face-slide1">
+          <ul class="social center">
+            <a href="#" class="fa fa-facebook"></a>
+          </ul> 
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+        <div class="col-md-4 col-xs-4" id="social-twit-slide1">
+          <ul class="social center">
+            <a href="#" class="fa fa-twitter"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+        <div class="col-md-4 col-xs-4" id="social-linked-slide1">
+          <ul class="social center">
+             <a href="#" class="fa fa-linkedin"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+        <div class="col-md-4 col-xs-4" id="social-face-slide2">
+          <ul class="social center">
+            <a href="#" class="fa fa-facebook"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+        <div class="col-md-4 col-xs-4" id="social-twit-slide2">
+          <ul class="social center">
+            <a href="#" class="fa fa-twitter"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+        <div class="col-md-4 col-xs-4" id="social-linked-slide2">
+          <ul class="social center">
+             <a href="#" class="fa fa-linkedin"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+      </div>
+      </div>
+    
+      <div class="item">
+           <div class="row">
+        <div class="col-md-4 col-xs-4" id="social-face-slide3">
+          <ul class="social center">
+            <a href="#" class="fa fa-facebook"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+        <div class="col-md-4 col-xs-4" id="social-twit-slide3">
+          <ul class="social center">
+            <a href="#" class="fa fa-twitter"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+        <div class="col-md-4 col-xs-4 " id="social-linked-slide3">
+          <ul class="social center">
+             <a href="#" class="fa fa-linkedin"></a>
+          </ul>
+          ootstrap includes a responsive, mobile<br/> 
+          first fluid grid system that appropriately<br/>
+          scales up to 12 columns as the device or viewpo<br/>
+          rt size increases. It includes predefined classes fo<br/>
+          r easy layout options, as well as powerful mixins for <br/>
+          generating more semantic layouts.
+        </div>
+      </div>
+      </div>
+  
+    </div>
+
+    <a class="left carousel-control-vvvv" href="#myFacebook" data-slide="prev">
+      <span class="glyphicon glyphicon-arrow-left-vvvv" ></span>
+      <span class="">
+      <span class="sr-only-vvvv"></span>
+    </a>
+    <a class="right carousel-control-vvvv" href="#myFacebook" data-slide="next">
+      <span class="glyphicon glyphicon-arrow-right-vvvv"></span>
+      <span class="sr-only-vvvv"></span>
+    </a>
+</div>
+</div>
+</div>
+
+</section>
+    <!-- Left and right controls -->
+
+
+
+
+<section>
+  <div class="row travel_sec color_rjc"">
+    <div class="container">
+  <h2 class="travel-memory">Travel Memory</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+  <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      
+    </ol>-->
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="row">
+          <div class="col-sm-4 col-xs-4" id="dv11_1">
+            <img src="images/1.jpg" alt="Avatar" class="wonder_city"  >
+              <div class="wonder_midle">
+               <div class="wonder_text">Italy<p>Wornder city</p></div>
+               </div>
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/2.jpg" alt="Chicago" class="wonder_city" >
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/3.jpg" alt="Chicago" class="wonder_city" >
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/1.jpg" alt="Chicago" class="wonder_city">
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/2.jpg" alt="Chicago" class="wonder_city">
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/3.jpg" alt="Chicago" class="wonder_city">
+          </div>
+        </div>
+      </div>
+    
+      <div class="item">
+        <div class="row">
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/1.jpg" alt="Chicago" class="wonder_city">
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/2.jpg" alt="Chicago" class="wonder_city">
+          </div>
+          <div class="col-sm-4 col-xs-4">
+            <img src="images/3.jpg" alt="Chicago" class="wonder_city">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-arrow-left" ></span>
+      <span class="">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-arrow-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  </div>
+</section>
+
+
+ <section class="rjc_sec_6">
+    <div class="row myjournay-sec">
+      <div class="col-sm-4">
+        <h2 class="myjour">My Journal</h2>
+        <div class="responsive">
+          <div class="gallery">
+             <a target="_blank" href="images/money.jpg">
+              <img src="images/money.jpg" width="300" height="200">
+             </a>
+                <div class="desc"><h4>The India's money could get worst.</h4>
+                  <p>Fifty days ago India's currency was better then current.</p>
+                </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-4 ">
+      <div class="row" class="col-sm-6 democrasy-contant">
+        <div class="desc"><h4>Demonestration on Five Content.</h4>
+          <p>Fifty days ago India's currency was better then current.</p>
+        </div>
+      </div>
+      <div class="row" class="col-sm-6">
+        <div class="desc"><h4>Avoiding Taxes is not smart.</h4>
+          <p>Fifty days ago India's currency was better then current.</p>
+        </div>
+      </div> 
+   </div>
+    <div class="col-sm-4 row" >
+      <p class="allpost">All Post:</p>
+          <a href="#"><img src="images/1.jpg" alt="Avatar" class="democrasy"></a>
+           <div class="wonder_midle">
+             <div class="wonder_text"><h4>Avoiding Taxes is not smart.</h4>
+            </div>
+          </div>
+      
+    </div>
+</div>
+</section>
+
+
+
+
+<section class="rjc_sec_7">
+  <div class="row student student_all">
+    <div class="col-sm-3 col-xs-3 color_rjc" >
+     <div><i class="fa fa-graduation-cap icon-size" aria-hidden="true"></i>
+     <p class="news_rd">50000 Students</p>
+     <p class="student_para">Every day students register.</p>
+     </div>
+     </div>
+    <div class="col-sm-3 col-xs-3 color_rjc" >
+     <div><i class="fa fa-bus icon-size" aria-hidden="true"></i>
+     <p class="news_rd">1000 Busess</p>
+     <p class="student_para">Every day 10 bus shell.</p>
+     </div>
+    </div>
+    <div class="col-sm-3 col-xs-3 color_rjc" >
+      <div><i class="fa fa-users icon-size" aria-hidden="true"></i>
+      <p class="news_rd">4000 users</p>
+      <p class="student_para">Every day so many users add.</p>
+     </div>
+      </div>
+    <div class="col-sm-3 col-xs-3 color_rjc" >
+      <div><i class="fa fa-newspaper-o icon-size" aria-hidden="true"></i>
+      <p class="news_rd">5000 news reader</p>
+      <p class="student_para">Every day so many news reader reading.</p>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!--- footer strt-->
+<footer>
+  <div class="row">
+    <div class="col-sm-6 col-xs-12 colinger-text" >
+      <h3 class="title">Colinger</h3>
+          <p class="i_am_col">I am colinger here.</p>
+           <ul class="social social-foot">
+            <a href="#" class="fa fa-facebook allsocial"></a>
+            <a href="#" class="fa fa-twitter allsocial"></a>
+            <a href="#" class="fa fa-linkedin allsocial"></a>
+          </ul>
+    </div>
+    <div class="col-sm-6 col-xs-12"><h3>Subscription</h3>
+    <input type="text" name="text" value="Subscription">
+     <p><i class="fa fa-map-pin"></i> Rohini sec 9, New Delhi-110085</p>
+        <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
+    </div>
+  </div>
+</footer>
+
+<!--- footer End-->
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
